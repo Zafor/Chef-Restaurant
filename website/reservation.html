@@ -17,8 +17,8 @@
           <li><a href="about.html">About</a></li>
           <li><a href="menu.html" class="animsition-link">Menu</a></li>
           <li><a href="gallery.html" class="animsition-link">Gallery</a></li>
-          <li class="active"><a href="contact.html" class="animsition-link">Contact</a></li>
-          <li class="cta"><a href="reservation.html" class="animsition-link py-2 px-4">Reserve Now</a></li>
+          <li><a href="contact.html" class="animsition-link">Contact</a></li>
+          <li class="cta active"><a href="reservation.html" class="animsition-link py-2 px-4">Reserve Now</a></li>
         </ul>
       </div>
     </nav>
@@ -41,12 +41,12 @@
     </header>  
 
     <div class="cover-parallax-1 overlay-1 padding" data-scrollax-parent="true">
-      <div class="cover" data-scrollax="properties: { translateY: '30%' }"><img src="images/img_isotope_2.jpg" /></div>
+      <div class="cover" data-scrollax="properties: { translateY: '30%' }"><img src="images/img_isotope_8.jpg" /></div>
 
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-12 text-center" data-aos="fade">
-            <h3 class="heading mb-5">Contact Us</h3>
+            <h3 class="heading mb-5">Reservation</h3>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="row mb-5 justify-content-center" data-aos="fade">
           <div class="col-md-12 text-center mb-5">
-            <h2 class="display-4 mb-4">Get In Touch</h2>
+            <h2 class="display-4 mb-4">Reserve A Table</h2>
             <div class="row justify-content-center">
               <div class="col-md-7">
                 <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -75,40 +75,65 @@
           <div class="col-md-12">
             <div class="block-open-time-reserve" data-aos="fade">
               <div class="open-time text-center">
-                <h2 class="text-white">Contact Info</h2>
-                <p class="text-muted-alpha mb-0 text-uppercase">Address</p>
-                <p>Arthur Bldg flr, New York City, USA</p>
-                
-                <p class="text-muted-alpha mb-0 text-uppercase">Email</p>
-                <p class="mb-5"><a href="mailto:info@domainname.com" class="link-primary">info@domainname.com</a></p>
+                <h2 class="text-white">Time Open</h2>
+                <p class="text-muted-alpha mb-0 text-uppercase">Monday &mdash; Friday</p>
+                <p>
+                7AM to 11AM (Breakfast) <br>
+                12PM to 11PM (Lunc/Dinner) <br> </p>
 
-                <p class="text-muted-alpha mb-0 text-uppercase">Phone</p>
-                <p class="mb-5"><a href="tel://+13982398483" class="link-primary">+1 398 239 8483</a></p>
+                 <p class="text-muted-alpha mb-3 text-uppercase">Saturday (CLOSED) </p>
 
+                <p class="text-muted-alpha mb-0 text-uppercase">Sunday</p>
+                <p>
+                7AM to 11AM (Breakfast) <br>
+                12PM to 11PM (Lunc/Dinner) <br>
+                </p>
+                <p><a href="tel://+13982398483" class="link-primary">+1 398 239 8483</a></p>
               </div>
               <div class="reserve">
                 <form action="#">
                   <div class="row">
                     <div class="col-md-12 text-center">
-                      <h2 class="mb-4">Contact Form</h2>
+                      <h2 class="mb-4">Reservation Form</h2>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-md-4">
-                      <input type="text" class="form-control border-bottom" placeholder="Name">
+                      <div class="input-with-icon-wrap">
+                        <span class="icon ion-chevron-down"></span>
+                        <select name="" id="" class="form-control border-bottom">
+                          <option value="">1 Person</option>
+                          <option value="">2 Persons</option>
+                          <option value="">3 Persons</option>
+                          <option value="">4 Persons</option>
+                          <option value="">5+ Persons</option>
+                        </select>
+                      </div>
                     </div>
                     <div class="form-group col-md-4">
-                      <input type="email" class="form-control border-bottom" placeholder="Email">
+                      <div class="input-with-icon-wrap">
+                        <span class="icon ion-calendar"></span>
+                        <input type="text" class="form-control border-bottom js-datepicker" placeholder="Date">
+                      </div>
+                      
+                    </div>
+                    <div class="form-group col-md-4">
+                      <div class="input-with-icon-wrap">
+                        <span class="icon ion-android-time"></span>
+                        <input type="text" class="form-control border-bottom js-timepicker" placeholder="Time">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row  mb-5">
+                    <div class="form-group col-md-4">
+                      <input type="text" class="form-control border-bottom" placeholder="Name">
                     </div>
                     <div class="form-group col-md-4">
                       <input type="text" class="form-control border-bottom" placeholder="Phone">
                     </div>
-                  </div>
-                  <div class="row  mb-5">
-                    <div class="form-group col-md-12">
-                      <textarea name="" id="" cols="30" rows="10" class="form-control border-bottom" placeholder="Write your message..."></textarea>
+                    <div class="form-group col-md-4">
+                      <input type="email" class="form-control border-bottom" placeholder="Email">
                     </div>
-                    
                   </div>
                   <div class="row justify-content-center">
                     <div class="col-md-4">
@@ -189,7 +214,7 @@
         </div> <!-- .row -->
 
         <div class="row pt-5 text-left">
-          <p>
+          <div class="col-md-12 text-center"><p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
